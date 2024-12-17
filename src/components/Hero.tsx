@@ -42,7 +42,7 @@ export default function Hero() {
       </div>
 
       {/* Right Section */}
-      <div className="relative flex w-full items-center justify-center bg-gradient-to-br from-purple-300 via-pink-200 to-pink-300 p-8 md:w-1/2">
+      <div className="relative flex w-full items-center justify-center bg-gradient-to-br from-purple-400 via-pink-300 to-pink-400 p-8 md:w-1/2">
         {/* Grid Pattern Overlay */}
         <div
           className="absolute inset-0 opacity-20"

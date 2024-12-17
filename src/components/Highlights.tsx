@@ -43,7 +43,7 @@ export default function Specs() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className={`flex flex-col items-center rounded-lg bg-gradient-to-br ${feature.gradient} p-8 text-center shadow-lg transition-transform hover:scale-105`}
+              className={`flex flex-col items-center rounded-lg bg-gradient-to-br ${feature.gradient} p-8 py-16 text-center shadow-lg transition-transform hover:scale-105`}
             >
               <div className="mb-4 rounded-full bg-white/20 p-3">
                 <feature.icon className="h-8 w-8 text-white" />
