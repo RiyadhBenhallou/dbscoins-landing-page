@@ -6,13 +6,9 @@ export default function Hero() {
       <div className="relative flex w-full items-center justify-center bg-[#FFD700] p-8 md:w-1/2">
         <div className="relative z-10 flex flex-col items-center space-y-8">
           {/* Logo Section */}
-          <div className="flex items-center space-x-2">
-            <div className="relative h-12 w-12">
-              <div className="absolute inset-0 rounded-full border-4 border-black">
-                <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-2xl font-bold">
-                  ₿
-                </span>
-              </div>
+          <div className="flex flex-col items-center space-x-2 mt-4 md:mt-0">
+            <div className="relative">
+              <img src="logo-tr.png" alt="" className="h-40" />
             </div>
             <h1 className="text-4xl font-bold tracking-wider text-black">
               DBSCOINS
@@ -20,11 +16,12 @@ export default function Hero() {
           </div>
 
           {/* Telegram Handle */}
-          <a href="#">
-            <div className="flex items-center space-x-2 rounded-full border-2 border-black bg-[#FFD700] px-6 py-2">
+
+          <a href="https://t.me/combocoins" target="_blank">
+            <button className="flex items-center space-x-2 rounded-full border-2 border-black bg-[#FFD700] px-6 py-2">
               <Send className="h-6 w-6" />
               <span className="text-xl font-medium">@combocoins</span>
-            </div>
+            </button>
           </a>
         </div>
 
@@ -42,7 +39,7 @@ export default function Hero() {
       </div>
 
       {/* Right Section */}
-      <div className="relative flex w-full items-center justify-center bg-gradient-to-br from-purple-400 via-pink-300 to-pink-400 p-8 md:w-1/2">
+      <div className="relative flex w-full items-center justify-center bg-gradient-to-br from-purple-400 via-pink-300 to-pink-400 p-8 md:w-1/2 md:mt-4">
         {/* Grid Pattern Overlay */}
         <div
           className="absolute inset-0 opacity-20"
@@ -60,9 +57,11 @@ export default function Hero() {
           <p className="text-xl text-gray-800">
             A diverse selection of data from various regions
           </p>
-          <button className="rounded-md bg-[#87CEEB] px-8 py-3 text-lg font-semibold text-white transition-transform hover:scale-105">
-            ORDER NOW
-          </button>
+          <a href="https://t.me/ishowjojo" target="_blank">
+            <button className="rounded-md bg-[#87CEEB] px-8 py-3 text-lg font-semibold text-white transition-transform hover:scale-105">
+              ORDER NOW
+            </button>
+          </a>
         </div>
       </div>
     </div>

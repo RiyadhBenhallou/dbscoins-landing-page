@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <a href="#hero" className="flex-shrink-0 flex items-center">
-              <img className="h-8 w-auto" src="/logo.png" alt="Logo" />
+              <img className="h-14 w-auto" src="logo-tr.png" alt="Logo" />
             </a>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
@@ -92,6 +92,13 @@ const Navbar: React.FC = () => {
               onClick={() => setIsOpen(false)}
             >
               Highlights
+            </a>
+            <a
+              href="#about"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+              onClick={() => setIsOpen(false)}
+            >
+              About
             </a>
           </div>
         </div>

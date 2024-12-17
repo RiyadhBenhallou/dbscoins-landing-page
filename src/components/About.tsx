@@ -6,28 +6,9 @@ export default function About() {
         <div className="relative z-10 flex flex-col items-center space-y-8">
           {/* Logo */}
           <div className="flex flex-col items-center">
-            <div className="relative h-24 w-24">
+            <div className="relative">
               <div className="flex h-full w-full items-center justify-center">
-                <svg viewBox="0 0 100 100" className="h-full w-full">
-                  <path
-                    d="M50 90 C22 90 0 68 0 40 C0 12 22 -10 50 -10"
-                    fill="none"
-                    stroke="black"
-                    strokeWidth="2"
-                    className="opacity-20"
-                  />
-                  <circle cx="50" cy="40" r="30" className="fill-black" />
-                  <text
-                    x="50"
-                    y="50"
-                    textAnchor="middle"
-                    fill="#FFD700"
-                    fontSize="24"
-                    dy=".3em"
-                  >
-                    ₿
-                  </text>
-                </svg>
+                <img src="logo-tr.png" alt="" className="h-28" />
               </div>
             </div>
             <h2 className="mt-4 text-3xl font-bold tracking-wider text-black">
