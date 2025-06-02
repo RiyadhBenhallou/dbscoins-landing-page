@@ -17,7 +17,7 @@ export default function Footer() {
             <button className="flex items-center space-x-2 rounded-full border border-yellow-400 bg-yellow-400 px-4 py-2">
               <Send className="h-4 w-4 text-black" />
               <span className="text-sm font-medium text-black">
-                @combocoins
+                @DBSCOINS
               </span>
             </button>
           </a>
