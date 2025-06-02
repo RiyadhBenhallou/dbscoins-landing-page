@@ -17,10 +17,10 @@ export default function Hero() {
 
           {/* Telegram Handle */}
 
-          <a href="https://t.me/combocoins" target="_blank">
+          <a href="https://t.me/DBScoins" target="_blank">
             <button className="flex items-center space-x-2 rounded-full border-2 border-black bg-[#FFD700] px-6 py-2">
               <Send className="h-6 w-6" />
-              <span className="text-xl font-medium">@combocoins</span>
+              <span className="text-xl font-medium">@DBScoins</span>
             </button>
           </a>
         </div>
